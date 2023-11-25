@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Operations Limited</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./js/app.js">
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body class="font-sans">
+    <div class="header">
+        <h1 class="logo"><a href="./"> <img src="./images/logoorg.png" alt="" id="logo"></a></h1>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="./"  class="header-a">Home</a></li>
+                            <li><a href="./about.html"  class="header-a">About Us</a></li>
+                            <li><a href="./services.html"  class="header-a">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider start -->
+    <div class="sliderAx h-auto font-sans">
+        <div id="slider-1" class="container-fluid mx-auto ">
+            <div class="bg-cover bg-center  h-64 text-white py-60 px-10 object-fill slide1"
+                style="background-image: url('./images/slide2.jpg')">
+                <div class="md:w-1/2">
+                    <p class=" text-3xl normal-case">Welcome to </p>
+                    <p class="text-6xl  normal-case">Operations Limited</p>
+                    <p class="text-lg mb-10 font-medium leading-none normal-case">Maximizing Your Efficiency and Profit
+                        at Every Step of Your Journey</p>
+                    <a href="./about.html" 
+                        class="bg-amber-400 py-2 px-8 text-white font-bold uppercase text-sm rounded-xxl hover:bg-gray-200 hover:text-gray-800 slide1btn">Learn
+                        More</a>
+                </div>
+            </div> <!-- container -->
+            <br>
+        </div>
+
+        <div id="slider-2" class="container-fluid mx-auto">
+            <div class="bg-cover bg-top h-64 text-white py-60 px-10  object-fill slide2"
+                style="background-image: url('./images/slide1.jpg')">
+
+                <p class="text-3xl font-medium slider-p">Here</p>
+                <p class="text-5xl font-medium slider-p">We Provide Services For Your Business Needs</p>
+                <p class="text-2xl mb-10 font-light leading-none slider-p ">Let's Get Started</p>
+
+                <a href="./services.html" 
+                    class="bg-amber-400 py-2 px-8 text-white font-bold uppercase text-sm rounded-xxl hover:bg-gray-200 hover:text-gray-700 slide2btn">Services
+                </a>
+            </div> <!-- container -->
+            <br>
+        </div>
+    </div>
+    <div class="flex justify-between w-12 mx-auto pb-2" id="carousel-slider">
+        <button id="sButton1" onclick="sliderButton1()" class="bg-amber-400 rounded-full w-4 pb-2 btnslider1 "></button>
+        <button id="sButton2" onclick="sliderButton2() " class="bg-amber-400 rounded-full w-4 p-2 btnslider2"></button>
+    </div>
+    <!-- carousel-slider -->
+    <!-- Features -->
+    <div>
+        <br>
+        <center>
+            <h2 class=" headings
+        font-bold
+        text-3xl
+        sm:text-4xl
+        md:text-[40px]
+        text-dark
+        mb-4 
+        ">
+                Why Choose Us
+            </h2>
+        </center>
+        <br>
+    </div>
+    <div
+        class=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-full md:px-24 lg:px-8 lg:py-20 bg-grey-300 featuremain">
+        <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+
+
+
+        </div>
+        <div class="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x relative bottom-10">
+            <div class="space-y-6 sm:px-16">
+                <div class="flex flex-col max-w-md sm:flex-row">
+                    <div class="mb-4 mr-4">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-white">
+                            <svg class="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10" stroke="currentColor"
+                                viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-3 text-xl font-medium leading-5">Ensuring the delivery of quality enhanced
+                            services and increasing the focus on core competencies</h6>
+
+                    </div>
+                </div>
+                <div class="flex flex-col max-w-md sm:flex-row">
+                    <div class="mb-4 mr-4">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-white">
+                            <svg class="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10" stroke="currentColor"
+                                viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-3 text-xl font-medium leading-5">Ensuring a faster turn-around and maximizing the
+                            rate of productivity </h6>
+
+                    </div>
+                </div>
+                <div class="flex flex-col max-w-md sm:flex-row">
+                    <div class="mb-4 mr-4">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-white">
+                            <svg class="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10" stroke="currentColor"
+                                viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-3 text-xl font-medium leading-5">Helping to build business values and strategic
+                            decisions </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="space-y-6 sm:px-16">
+                <div class="flex flex-col max-w-md sm:flex-row">
+                    <div class="mb-4 mr-4">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-white">
+                            <svg class="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10" stroke="currentColor"
+                                viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-3 text-xl font-medium leading-5">Strengthening your business presence in the global
+                            market and implementing robust data security, privacy measures </h6>
+                    </div>
+                </div>
+                <div class="flex flex-col max-w-md sm:flex-row">
+                    <div class="mb-4 mr-4">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-white">
+                            <svg class="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10" stroke="currentColor"
+                                viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-3 text-xl font-medium leading-5">Optimal use of advance technology and trending
+                            software</h6>
+                    </div>
+                </div>
+                <div class="flex flex-col max-w-md sm:flex-row">
+                    <div class="mb-4 mr-4">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-400 text-white">
+                            <svg class="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10" stroke="currentColor"
+                                viewBox="0 0 52 52">
+                                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="mb-3 text-xl font-medium leading-5">Continuous chat support to assist you with the
+                            raised queries </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+
+    <!-- Services  -->
+    <div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white servicesmain">
+        <hr class="style14">
+        <br>
+        <center>
+            <h2 class=" headings
+            font-bold
+            text-3xl
+            sm:text-4xl
+            md:text-[40px]
+            text-dark
+            mb-4 
+            ">
+                Our Services
+            </h2>
+        </center>
+        <br>
+        <div class=" xl:max-w-6xl mx-auto px-4">
+            <!-- Heading start -->
+
+            <br>
+            
+            <!-- End heading -->
+            <!-- row -->
+            <div class="flex flex-wrap flex-row-mx-4 text-center ">
+                <div class="flex-shrink px-4 max-w-full w-full sm:w-1/3 lg:w-1/5 lg:px-6 wow fadeInUp"
+                    data-wow-duration="1s"
+                    style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                   <a href="./services.html#b-p-o"> <div
+                        class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service1">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-credit-card"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">BPO Services</h3>
+                    </div></a>
+                    <!-- end service block -->
+                </div>
+                
+                <div class="flex-shrink px-4 max-w-full w-full sm:w-1/3 lg:w-1/5 lg:px-6 wow fadeInUp"
+                    data-wow-duration="1s" data-wow-delay=".3s"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                   <a href="./services.html#app-dev">
+                    <div
+                        class="py-10 px-10 mb-14  bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service3">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-smartphone"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">App Development</h3>
+                    </div>
+                </a>
+                    <!-- end service block -->
+                </div>
+                <div class="flex-shrink px-4 max-w-full w-full sm:w-1/3 lg:w-1/5 lg:px-3 wow fadeInUp"
+                    data-wow-duration="1s"
+                    style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                    <a href="./services.html#soft-dev">
+                    <div
+                        class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service4">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-code"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Software Development</h3>
+                    </div>
+                </a>
+                    <!-- end service block -->
+                </div>
+                <div class="flex-shrink px-4 max-w-full w-full sm:w-1/3 lg:w-1/5 lg:px-3 wow fadeInUp"
+                    data-wow-duration="1s" data-wow-delay=".1s"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                    <a href="./services.html#web-dev">
+                    <div
+                        class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service5">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-code-slash"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Web Development</h3>
+                    </div>
+                </a>
+                    <!-- end service block -->
+                </div>
+                <div class="flex-shrink px-4 max-w-full w-full  sm:w-1/3 lg:w-1/5 lg:px-4 wow fadeInUp"
+                    data-wow-duration="1s" data-wow-delay=".3s"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                    <a href="./services.html#it-infra">
+                    <div
+                        class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service6">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-cloud"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">IT Infrastructure</h3>
+                    </div>
+                </a>
+                    <!-- end service block -->
+                </div>
+                <div class="flex-shrink px-4 max-w-full w-full  sm:w-1/3 lg:w-1/5 lg:px-4 wow fadeInUp"
+                    data-wow-duration="1s" data-wow-delay=".3s"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                    <a href="./services.html#seo">
+                    <div
+                        class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service7">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-search"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">SEO</h3>
+                    </div>
+                </a>
+                    <!-- end service block -->
+                </div>
+                <div class="flex-shrink px-4 max-w-full w-full  sm:w-1/3 lg:w-1/5 lg:px-4 wow fadeInUp"
+                    data-wow-duration="1s" data-wow-delay=".3s"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <!-- service block -->
+                    <a href="./services.html#graphics">
+                    <div
+                        class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 rounded-full transform transition duration-300 ease-in-out hover:-translate-y-2 service8">
+                        <div class="inline-block text-gray-900 mb-4">
+                            <!-- icon -->
+                            <i class="gg-inpicture"></i>
+                        </div>
+                        <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Graphics Designing</h3>
+                    </div>
+                    <!-- end service block -->
+                </div>
+            </a>
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+    <!-- Location -->
+
+    <!-- Services  -->
+    
+        <!-- <Footer> -->
+        <footer>
+            <div class="column">
+                <h2 class="text-left">Operations Limited</h2>
+                <p class="footer-p">Operations Limited is the globally well-recognized and the top-notch offshore
+                    service
+                    provider of
+                    numerous back-office support services, aimed at accomplishing extraordinary customer-satisfaction..
+                </p>
+            </div>
+            <div class="column">
+                <h2 class="footer-h2">Link</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li"><a class="footer-a" href="./">Home</a></li>
+                    <li class="footer-li"><a class="footer-a" href="./about.html" >About</a></li>
+                    <li class="footer-li"><a class="footer-a" href="./services.html" >Services</a></li>
+                </ul>
+            </div>
+            <!-- <div class="column ft" style="display: none;">
+                <h2 class="footer-h2">Links</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li"><a class="footer-a" href="#">Link</a></li>
+                    <li class="footer-li"><a class="footer-a" href="#">Link</a></li>
+                </ul>
+            </div> -->
+            <div class="column">
+                <h2 class="text-right">Contact</h2>
+                <ul class="address">
+                    <li class=""><a class="" href="mailto:info@operationsltd.com">info@operationsltd.com</a></li>
+                    <li>Contact:+92-318-0262917</li>
+                    <li>Tel:+92(21)3-4021002</li>
+
+                    <li class="">Address: Plot No.D-44 Street 04, Near Tariq Bin Ziat Airport Karachi
+                        Pakistan</li>
+
+                </ul>
+            </div>
+
+
+        </footer>
+        <div class="bottom">
+
+            <div class="flex flex-wrap justify-center gap-2">
+                <div class="icons">
+                    <a href="https://www.instagram.com/operationslimited/" target="_blank" class="icon icon--instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/operations_ltd" class="icon icon--twitter"
+                        target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/operations-limited-59600b249" class="icon icon--linkedin"
+                        target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/Operations-Limited-111972388289692" target="_blank"
+                        class="icon icon--facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <p>© 2022 All Rights Reserved</p>
+        </div>
+        <!-- <Footer> -->
+        <script>
+            var cont = 0;
+            function loopSlider() {
+                var xx = setInterval(function () {
+                    switch (cont) {
+                        case 0: {
+                            $("#slider-1").fadeOut(400);
+                            $("#slider-2").delay(400).fadeIn(400);
+                            $("#sButton1").removeClass("bg-amber-400");
+                            $("#sButton2").addClass("bg-amber-400");
+                            cont = 1;
+
+                            break;
+                        }
+                        case 1:
+                            {
+
+                                $("#slider-2").fadeOut(400);
+                                $("#slider-1").delay(400).fadeIn(400);
+                                $("#sButton2").removeClass("bg-amber-400");
+                                $("#sButton1").addClass("bg-amber-400");
+
+                                cont = 0;
+
+                                break;
+                            }
+
+
+                    }
+                }, 8000);
+
+            }
+
+            function reinitLoop(time) {
+                clearInterval(xx);
+                setTimeout(loopSlider(), time);
+            }
+
+
+
+            function sliderButton1() {
+
+                $("#slider-2").fadeOut(400);
+                $("#slider-1").delay(400).fadeIn(400);
+                $("#sButton2").removeClass("bg-amber-400");
+                $("#sButton1").addClass("bg-amber-400");
+                reinitLoop(4000);
+                cont = 0
+
+            }
+
+            function sliderButton2() {
+                $("#slider-1").fadeOut(400);
+                $("#slider-2").delay(400).fadeIn(400);
+                $("#sButton1").removeClass("bg-amber-400");
+                $("#sButton2").addClass("bg-amber-400");
+                reinitLoop(4000);
+                cont = 1
+
+            }
+
+            $(document).ready(function () {
+                $("#slider-2").hide();
+                $("#sButton1").addClass("bg-amber-400");
+
+
+                loopSlider();
+
+
+
+
+
+
+            });
+
+
+        </script>
+</body>
+
+</html>
